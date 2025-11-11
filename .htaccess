@@ -1,7 +1,4 @@
 RewriteEngine On
-# Если ваш index.php находится в /my-project/
-# Установите путь от корня до папки проекта
-# Если index.php находится в корне домена (public_html), то не нужно.
 RewriteBase /ipr_2/ 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
